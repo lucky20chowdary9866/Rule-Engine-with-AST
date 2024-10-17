@@ -1,0 +1,17 @@
+
+{
+    "rules": [
+        {
+            "id": "rule1",
+            "description": "Rule 1 description",
+            "condition": "age > 30 and department == 'Sales'",
+            "action": "approve"
+        },
+        {
+            "id": "rule2",
+            "description": "Rule 2 description",
+            "condition": "age < 25 and department == 'Marketing'",
+            "action": "reject"
+        }
+    ]
+}
